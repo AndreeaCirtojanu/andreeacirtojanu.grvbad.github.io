@@ -3882,7 +3882,10 @@ input[type=button].btn-block {
     transition: none;
   }
 }
-
+.logo {
+  width: 90px;
+  height: 90px;
+}
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -10094,9 +10097,7 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
-  width: 15rem;
-}
+
 
 @media (min-width: 992px) {
   .masthead {
